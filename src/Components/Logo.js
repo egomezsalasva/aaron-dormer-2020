@@ -11,6 +11,7 @@ const LogoHeaderContainer = styled.div`
   left: 50vw;
   transform: translate(-50%);
   top: 40px;
+  width: 380px;
 `
 const LogoIcon = styled.img`
   display: inline-block;
@@ -22,7 +23,7 @@ const TitleBox = styled.div`
   padding: 0 20px;
   margin-left: 15px;
   position: relative;
-  top: -13px;
+  top: -14px;
 `
 const Title = styled.h3`
   display: inline-block;
@@ -38,7 +39,7 @@ const Role = styled.h3`
   letter-spacing: 1.5px;
   margin-left: 15px;
   position: relative;
-  top: -13px;
+  top: -14px;
 `
 
 function Logo() {
