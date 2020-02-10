@@ -52,8 +52,29 @@ const RightArrow = styled(ArrowButton)`
   }
 `
 const SlideshowPlayButton = styled.div`
+  position: absolute;
+  top: calc( 50px + 5.625vh + 5vh + 68.75vh + 5vh - 10px);
+  right: 18.0555556vw;
+  cursor: pointer;
+  span{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background: var(--aaronGrey75);
+    color: var(--aaronBlack);
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+      background: var(--aaronWhite);
+    }
+  }
   
 `
+
 
 //Main Component
 function Home() {
@@ -70,7 +91,9 @@ function Home() {
         </RightArrow>
       </SlideshowArrowContainer>
 
-      <SlideshowPlayButton />
+      <SlideshowPlayButton>
+        <span>Play</span>
+      </SlideshowPlayButton>
       {/*
       <SlideshowTitle />
       <SlideshowNumber /> */}

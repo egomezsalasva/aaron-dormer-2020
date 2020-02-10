@@ -27,24 +27,24 @@ const TitleBox = styled.div`
   padding: 0 15px;
   margin-left: 20px;
   position: relative;
-  top: -12px;
+  top: -13px;
 `
 const Title = styled.h3`
   display: inline-block;
   line-height: 25px;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--aaronBlack);
   letter-spacing: 1.5px;
   text-align: center;
 `
 const Role = styled.h3`
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--aaronWhite);
   letter-spacing: 1.5px;
   margin-left: 15px;
   position: relative;
-  top: -12px;
+  top: -13px;
 `
 
 
