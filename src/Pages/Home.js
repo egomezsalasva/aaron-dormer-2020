@@ -74,6 +74,23 @@ const SlideshowPlayButton = styled.div`
   }
   
 `
+const SlideshowTitleContainer = styled.div`
+  position: absolute;
+  left: calc(67.0833333vw + 16.4583333vw + 30px);
+  top: calc( 50px + 5.625vh + 5vh + 68.75vh + 5vh - 10px);
+  margin-right: 20px;
+`
+const SlideshowTitle = styled.div`
+  font-size: 14px;
+  color: var(--aaronWhite);
+  letter-spacing: 1.17px;
+`
+const SlideshowTitleClient = styled.div`
+  font-size: 14px;
+  color: var(--aaronGrey75);
+  letter-spacing: 1.17px;
+  margin-top: 2px;
+`
 
 
 //Main Component
@@ -94,8 +111,13 @@ function Home() {
       <SlideshowPlayButton>
         <span>Play</span>
       </SlideshowPlayButton>
+
+      <SlideshowTitleContainer>
+        <SlideshowTitle>Keep On Rolling</SlideshowTitle>
+        <SlideshowTitleClient>Rizla</SlideshowTitleClient>
+      </SlideshowTitleContainer>
+
       {/*
-      <SlideshowTitle />
       <SlideshowNumber /> */}
     </>
   );
