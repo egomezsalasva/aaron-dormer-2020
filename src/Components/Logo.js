@@ -4,26 +4,30 @@ import styled from 'styled-components'
 //Import Images
 import LogoComp from '../aasets/LogoComp.svg'
 
+
 //Styled
 const LogoHeaderContainer = styled.div`
   position: absolute;
   display: inline-block;
   left: 50vw;
   transform: translate(-50%);
-  top: 40px;
+  top: 5vh;
   width: 380px;
+  height: 50px;
 `
 const LogoIcon = styled.img`
   display: inline-block;
+  position: relative;
+  top: 2px;
 `
 const TitleBox = styled.div`
   display: inline-block;
   height: 25px;
   background: var(--aaronWhite);
-  padding: 0 20px;
-  margin-left: 15px;
+  padding: 0 15px;
+  margin-left: 20px;
   position: relative;
-  top: -14px;
+  top: -12px;
 `
 const Title = styled.h3`
   display: inline-block;
@@ -31,6 +35,7 @@ const Title = styled.h3`
   font-size: 18px;
   color: var(--aaronBlack);
   letter-spacing: 1.5px;
+  text-align: center;
 `
 const Role = styled.h3`
   display: inline-block;
@@ -39,9 +44,11 @@ const Role = styled.h3`
   letter-spacing: 1.5px;
   margin-left: 15px;
   position: relative;
-  top: -14px;
+  top: -12px;
 `
 
+
+//Main Component
 function Logo() {
   return (
     <>
